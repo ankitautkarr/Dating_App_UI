@@ -1,0 +1,104 @@
+.Heading{
+    text-align: center;
+    max-width: 550px;
+    min-width: 450px;
+    margin: auto;
+}
+
+
+.form{
+    margin: auto;
+    padding: 4px 4px;
+    max-width: 650px;
+    min-width: 650px;
+    border: 6px black solid;
+    background-color: rgb(255, 253, 208);
+    font-weight: 600;
+}
+
+.Personal_info{
+    padding: 6px;
+    background-color: rgb(216, 106, 119);
+    color: rgb(255, 253, 208);
+   
+}
+
+#fName{
+    margin: 6px;
+}
+
+#emailId{
+    margin: 6px;
+    margin-left: 20px;
+}
+
+#callingNo{
+    margin: 6px;
+}
+
+#whatsappNo{
+    margin: 6px;
+}
+
+.gender{
+  padding: 6px;
+}
+
+.education{
+  padding: 6px;
+}
+
+.Other_info{
+  padding: 6px;
+}
+
+.Location_info{
+    padding: 6px;
+}
+
+.Meeting_info{
+    padding: 6px;
+    background-color:  rgb(216, 106, 119);
+    color: rgb(255, 253, 208);
+}
+
+.Essay{
+  padding: 6px;
+}
+
+#Essay{
+    height: 90px; 
+    width: 400px;
+}
+
+.Contact_ref{
+  padding: 6px;
+   
+}
+
+.File{
+  padding: 6px;
+  
+}
+
+.Submit{
+  padding: 6px;
+  
+}
+
+#Submit {
+  font-weight: 900;    
+  padding: 8px 12px;
+  font-size: 16px;
+  margin-left: 268px;
+  border: 4px solid red; 
+  border-bottom-left-radius: 10px;   
+  border-top-right-radius: 10px;   
+  cursor: pointer;
+}
+
+.Combine{
+    padding: 6px;
+    background-color: rgb(216, 106, 119);
+    color: rgb(255, 253, 208);
+}

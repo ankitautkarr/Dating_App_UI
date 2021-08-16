@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Datting App UI</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="form">
+      <h1 class="Heading">*Dating Application Form*</h1>
+      <form action="submit.html" method="GET">
+        <div class="Personal_info">
+          <h2>Personal Details</h2>
+          <div>
+            <label for="fName">Frist Name</label>
+            <input
+              type="text"
+              name="fName"
+              id="fName"
+              placeholder="First Name"
+              required
+            />
+            <label for="lName">Last Name</label>
+            <input
+              type="text"
+              name="lName"
+              id="lName"
+              placeholder="Last Name"
+              required
+            />
+          </div>
+          <div>
+            <label for="emailId">Email Id</label>
+            <input
+              type="email"
+              name="emailId"
+              id="emailId"
+              placeholder="Your Email Id"
+              required
+            />
+          </div>
+          <div>
+            <label for="callingNo">Calling Number</label>
+            <input
+              type="tel"
+              name="callingNo"
+              id="callingNo"
+              placeholder="Calling Number"
+              required
+            />
+            <label for="whatsappNo">Whatsapp Number</label>
+            <input
+              type="tel"
+              name="whatsappNo"
+              id="whatsappNo"
+              placeholder="Whatsapp Number"
+              required
+            />
+          </div>
+          <div class="gender">
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" required />Male
+            <input type="radio" name="gender" />Female
+            <input type="radio" name="gender" />Other
+          </div>
+          <div class="education">
+            <label for="Education" id="Education">Heighst Education</label>
+            <select class="Education">
+              <option>B.Tech</option>
+              <option>M.Tech</option>
+              <option>B.Sc</option>
+              <option>M.Sc</option>
+              <option>BBA</option>
+              <option>MBA</option>
+              <option>MBBS</option>
+              <option>MS</option>
+              <option>PhD</option>
+              <option>Others</option>
+            </select>
+          </div>
+        </div>
+        <h2>Other Details</h2>
+        <div class="Other_info">
+          <label for="Other_info"
+            >Check the following and select multiple options:</label
+          >
+          <div>
+            <input type="checkbox" name="Other_info" id="Other_info" />
+            <label for="Other_info">I have Tattoos and or Piercings. </label>
+          </div>
+          <div>
+            <input type="checkbox" name="Other_info" id="Other_info" />
+            <label for="Other_info"
+              >I am 2 years or more older than your daughter.
+            </label>
+          </div>
+          <div>
+            <input type="checkbox" name="Other_info" id="Other_info" />
+            <label for="Other_info">I own a Panel-Van or Ferrari. </label>
+          </div>
+          <div>
+            <input type="checkbox" name="Other_info" id="Other_info" />
+            <label for="Other_info">I work full-time. </label>
+          </div>
+          <div>
+            <input type="checkbox" name="Other_info" id="Other_info" />
+            <label for="Other_info"> My parents are rich. </label>
+          </div>
+          <div class="Location_info">
+            <label for="Location_info" required>Location Of Date </label>
+            <input
+              type="radio"
+              name="Location_info"
+              id="Location_info"
+              required
+            />
+            Public Place
+            <input
+              type="radio"
+              name="Location_info"
+              id="Location_info"
+            />Private Place
+          </div>
+        </div>
+
+        <div class="Meeting_info">
+          <h2>Date & Time</h2>
+          <label for="DateOfDate">Proposed Date for Dating</label>
+          <input type="date" name="DateofDate" id="DateofDate" required />
+          <label for="time" required>Time</label>
+          <input type="time" name="time" id="time" required />
+        </div>
+
+        <div class="Essay">
+          <h2>Question for You</h2>
+          <label for="Essay" required
+            >Why do you want to date my daughter?[50 words]</label
+          >
+          <div>
+            <textarea
+              id="Essay"
+              maxlength="200"
+              placeholder="Your Answer in 50 Words"
+              required
+            ></textarea>
+          </div>
+        </div>
+        <div class="Combine">
+          <div class="Contact_ref">
+            <div>
+              <label for="ContactRef" required
+                >Please provide 1 contact Point for your reference
+              </label>
+            </div>
+            <input
+              type="text"
+              name="ContactRefName"
+              id="ContactRefName"
+              placeholder="Name of Person"
+              required
+            />
+            <input
+              type="text"
+              name="ContactRefNum"
+              id="ContactRefNum"
+              placeholder="Contact Number"
+              required
+            />
+          </div>
+
+          <div class="File">
+            <label for="Bank_statement"
+              >Please Upload your 12 month bank statement here in pdf
+              format.</label
+            >
+            <input type="file" name="Bank_statement" id="Bank_statement" />
+          </div>
+        </div>
+
+        <div class="Submit">
+          <input type="submit" name="Submit" id="Submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
